@@ -155,8 +155,8 @@ function App() {
                 {/* <Route path='/rate' element={<RateUs />} /> */}
               </Route>
               <Route path="/" element={<ChessLanding />} />
-              {/* <Route path="/login" element={<Login />} />
-              <Route path="/register" element={<Register />} /> */}
+              <Route path="/login" element={<Login />} />
+              {/*  <Route path="/register" element={<Register />} /> */}
               <Route path="/forgate-password" element={<ForgetPassword />} />
               <Route path="/reset-passwored" element={<ResetPassword />} />
               <Route path="/forget" element={<Passwordreset />} />
