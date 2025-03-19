@@ -129,9 +129,9 @@ function App() {
             <Routes>
               <Route element={<ProtectRoute user={user} />}>
                 {/* <Route path='/' element={<Home />} /> */}
-                <Route path="/login" element={<Login />} />
-                <Route path="/register" element={<Register />} />
-                {/* <Route path='/forget' element={<Passwordreset />} />
+                {/* <Route path='/login' element={<Login />} />
+              <Route path='/register' element={<Register />} />
+              <Route path='/forget' element={<Passwordreset />} />
               <Route path='/loginbyemail' element={<LoginByEmail />} /> */}
                 {/* <Route path='/chess8by8' element={<Chess8by8 />} /> */}
                 {/* <Route path='/multiplayer/:time' element={<Multiplayer />} /> */}

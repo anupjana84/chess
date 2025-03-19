@@ -2,6 +2,7 @@ import { useState } from "react";
 import "../assets/CSS/goldenEffect.css";
 import "../assets/CSS/greenEffect.css";
 import Button from "./components/Button";
+import img from "./src/assets/logo5.png";
 const Header = () => {
   const [active, setActive] = useState("Home");
   const [hovered, setHovered] = useState(null);
@@ -13,13 +14,7 @@ const Header = () => {
     <nav className="w-full flex justify-between items-center bg-black/[0.6]  backdrop-blur-sm fixed top-0  p-4 z-50">
       <div className="w-full flex justify-between items-center">
         <div className="w-[200px] flex flex-col items-center">
-          <img
-            width={60}
-            height={60}
-            src="./src/assets/logo5.png"
-            alt=""
-            srcset=""
-          />
+          <img width={60} height={60} src={img} alt="" srcset="" />
           {/* <h1 className="flex flex-col cursor-pointer text-lg font-semibold golden-text">
           Dynamo Chess
         </h1> */}
